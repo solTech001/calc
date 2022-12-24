@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="container shadow mt-5">
+            <div class="card mx-auto shadow p-2 font-monospace" style="max-width: 350px;">
+                <h3 class="text-danger">Calculator</h3>
+                <div class="border border-dark fs-1 p-2 text-end" id="display">
+                    0
+                </div>
+                <div class="d-flex my-2 gap-2">
+                    <button  class="btn btn-danger w-100" id="clear">CE</button>
+                    <button  class="btn btn-outline-dark w-100">(</button>
+                    <button  class="btn btn-outline-dark w-100">)</button>
+                    <button  class="btn btn-primary w-100" id="backspace">&larr;</button>
+                </div>
+                <div class="d-flex my-2 gap-2">
+                    <button  class="btn btn-outline-dark w-100">7</button>
+                    <button  class="btn btn-outline-dark w-100">8</button>
+                    <button  class="btn btn-outline-dark w-100">9</button>
+                    <button  class="btn btn-outline-dark w-100">/</button>
+                </div>
+                <div class="d-flex my-2 gap-2">
+                    <button  class="btn btn-outline-dark w-100">4</button>
+                    <button  class="btn btn-outline-dark w-100">5</button>
+                    <button  class="btn btn-outline-dark w-100">6</button>
+                    <button  class="btn btn-outline-dark w-100">*</button>
+                </div>
+                <div class="d-flex my-2 gap-2">
+                    <button  class="btn btn-outline-dark w-100">1</button>
+                    <button  class="btn btn-outline-dark w-100">2</button>
+                    <button  class="btn btn-outline-dark w-100">3</button>
+                    <button  class="btn btn-outline-dark w-100">-</button>
+                </div>
+                <div class="d-flex my-2 gap-2">
+                    <button  class="btn btn-outline-dark w-100">.</button>
+                    <button  class="btn btn-outline-dark w-100">0</button>
+                    <button  class="btn btn-outline-dark w-100">+</button>
+                    <button  class="btn btn-success w-100" id="equal">=</button>
+                </div>
+                <div class="d-flex my-2 gap-2">
+                    <button  class="btn btn-warning w-100" id="per">%</button>
+                    <button  class="btn btn-info  w-100" id="tan">tan</button>
+                    <button  class="btn btn-info w-100" id="pow">x<sup>3</sup></button>
+                    <button  class="btn btn-warning w-100" id="pie">pi
+                    </button>
+                </div>
+                <div class="d-flex my-2 gap-2">
+                    <button  class="btn btn-warning w-100" id="p2">x<sup>2</sup></button>
+                    <button  class="btn btn-info  w-100" id="sin">sin</button>
+                    <button  class="btn btn-info w-100" id="cos">cos</button>
+                    <button  class="btn btn-warning w-100" id="Sqrt">&Sqrt;x
+                    </button>
+                </div>
+            </div>
+            <p class = "soltech">&copyright Soltech001</p>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
